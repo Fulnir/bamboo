@@ -20,7 +20,7 @@ defmodule Bamboo.MailgunAdapter do
   """
 
   @service_name "Mailgun"
-  @base_uri "https://api.mailgun.net/v3"
+  @base_uri "https://api.eu.mailgun.net/v3"
   @behaviour Bamboo.Adapter
 
   alias Bamboo.{Email, Attachment}
